@@ -30,7 +30,7 @@ struct PlayButton {
 }
 class GameModelIncease {
    
-    let timeFoPlay:Int
+    var timeForPlay:Int = Int(CurentUser.shared.timeFoPlay)
     
     let numbers = Array(0...100)
     
@@ -44,7 +44,7 @@ class GameModelIncease {
     init() {
         
         
-       self.timeFoPlay = Int(CurentUser.shared.timeFoPlay)
+    //timeFoPlay
 ////        self.timer = Timer.scheduledTimer(timeInterval: 0.01, target: T##Any, selector: T##Selector, userInfo: T##Any?, repeats: Bool)
     }
     
