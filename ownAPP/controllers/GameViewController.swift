@@ -17,18 +17,33 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        
+        newGame.timeForPlay = Int(player.timeForPlay)
         labelUser.text = player.userName
-        timer.text = "\(newGame.timeForPlay)"
+        timer.text = "\(Int(player.timeForPlay))"
         labelCurentValue.text = "CurentValue"
         
         startGame()
     }
     
     
+    @IBAction func restartGame(_ sender: UIButton) {
+        startGame()
+    }
+    
     @IBAction func onChoseNumber(_ sender: UIButton) {
-      
         
+        let isFound = newGame.checkValue(pikedValue: sender.currentTitle ?? "999")
+        
+            sender.isHidden = isFound
+            
+            guard isFound else {
+                return
+            }
+            labelCurentValue.text = "find number \(newGame.correctNumber)"
+        
+        if newGame.gameStatus == .Win{
+            victory()
+        }
     }
     
     func startGame(){
@@ -42,6 +57,14 @@ class GameViewController: UIViewController {
             gameButtons[index].setTitle(button.text, for: .normal)
             index += 1
         }
+        labelCurentValue.text = "find number \(newGame.correctNumber)"
+        
+    }
+    
+    func victory() {
+    
+        labelCurentValue.text = "UIIIIIIII!!!! U win!!!!"
+        
         
     }
 }

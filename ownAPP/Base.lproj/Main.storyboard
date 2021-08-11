@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bcf-dc-mOB">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController storyboardIdentifier="YellowViewController" id="8Hh-5M-QsD" customClass="YellowViewController" customModule="ownAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SFF-IP-LNT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJt-6L-Xjo">
-                                <rect key="frame" x="173.5" y="377" width="67" height="54"/>
+                                <rect key="frame" x="161.66666666666666" y="351" width="67" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Blue"/>
                                 <connections>
@@ -47,7 +47,7 @@
             <objects>
                 <viewController id="cXv-pw-F2K" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cJE-tK-gDB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Vhu-Fh-VFD"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -63,7 +63,7 @@
             <objects>
                 <viewController id="LBX-JK-Hrk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nvy-XS-RBJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Xsp-R8-ZyM"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -79,11 +79,11 @@
             <objects>
                 <viewController id="KKz-6Z-wSf" customClass="StartViewController" customModule="ownAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CMI-fP-JDJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="10" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xkC-dy-uqo">
-                                <rect key="frame" x="18" y="748" width="392" height="31"/>
+                                <rect key="frame" x="18" y="696" width="392" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="388" id="F2Q-eR-tnn"/>
                                 </constraints>
@@ -92,7 +92,7 @@
                                 </connections>
                             </slider>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="jZ7-t0-k48">
-                                <rect key="frame" x="171" y="307" width="72" height="194"/>
+                                <rect key="frame" x="159" y="281" width="72" height="194"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xg1-dC-WJu">
                                         <rect key="frame" x="0.0" y="0.0" width="72" height="44"/>
@@ -127,7 +127,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCT-P0-YaG">
-                                <rect key="frame" x="20" y="164" width="60" height="40"/>
+                                <rect key="frame" x="15.999999999999996" y="164" width="59.666666666666657" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Tz9-PA-Q3C"/>
                                 </constraints>
@@ -136,13 +136,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header1" translatesAutoresizingMaskIntoConstraints="NO" id="l1L-cn-Hza">
-                                <rect key="frame" x="20" y="0.0" width="374" height="124"/>
+                                <rect key="frame" x="16" y="0.0" width="358" height="124"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="124" id="Wiz-Ob-Zjh"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yxl-T5-zMr">
-                                <rect key="frame" x="154" y="164" width="240" height="38.5"/>
+                                <rect key="frame" x="134" y="164" width="240" height="38.333333333333343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="6nh-Oq-KSV"/>
                                 </constraints>
@@ -173,6 +173,7 @@
                     <navigationItem key="navigationItem" id="llD-dE-ZOw"/>
                     <connections>
                         <outlet property="LoginTextFild" destination="Yxl-T5-zMr" id="y4Q-kq-COK"/>
+                        <outlet property="loginTextFild" destination="Yxl-T5-zMr" id="2sd-iB-gIV"/>
                         <outlet property="startWhiteGameButton" destination="13E-NG-hob" id="RMe-wq-ScJ"/>
                         <outlet property="timeSlider" destination="xkC-dy-uqo" id="DD3-NV-Vkk"/>
                     </connections>
@@ -186,11 +187,11 @@
             <objects>
                 <viewController storyboardIdentifier="GameViewController" id="OKJ-vs-LEI" customClass="GameViewController" customModule="ownAPP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PJd-eY-Ock">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0hC-Im-acI">
-                                <rect key="frame" x="13" y="40" width="388" height="130"/>
+                                <rect key="frame" x="1" y="40" width="388" height="130"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzW-oN-mMc">
                                         <rect key="frame" x="0.0" y="0.0" width="388" height="30"/>
@@ -215,40 +216,64 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Mup-lP-euQ">
-                                <rect key="frame" x="20" y="200" width="374" height="408"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Mup-lP-euQ">
+                                <rect key="frame" x="20" y="200" width="350" height="372"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="wVR-Re-ese">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="85"/>
+                                    <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="wVR-Re-ese">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="75"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xo-Il-Vdc">
-                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xo-Il-Vdc">
+                                                <rect key="frame" x="0.0" y="0.0" width="69.666666666666671" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="6RQ-fY-eFm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="S8A-BI-QJK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeR-K4-yOX">
-                                                <rect key="frame" x="99.5" y="0.0" width="76" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="93.666666666666686" y="0.0" width="69.333333333333314" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="Lra-Md-ydZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="x2p-DB-zbS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeU-gz-cZT">
-                                                <rect key="frame" x="198.5" y="0.0" width="76.5" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="187" y="0.0" width="69.666666666666686" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="1O2-b2-4gW"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="0RC-OU-ukx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QzV-lk-OdX">
-                                                <rect key="frame" x="298" y="0.0" width="76" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="280.66666666666669" y="0.0" width="69.333333333333314" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="xtC-PR-leE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="1Ti-uU-c5X"/>
                                                 </connections>
@@ -256,36 +281,60 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="h8t-7k-Uru">
-                                        <rect key="frame" x="0.0" y="108" width="374" height="84.5"/>
+                                        <rect key="frame" x="0.0" y="99" width="350" height="75"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33z-94-Tni">
-                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="lgT-Jt-6i9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="mct-o3-MON"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2M-9d-6aR">
-                                                <rect key="frame" x="99.5" y="0.0" width="76" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="93.333333333333343" y="0.0" width="70.333333333333343" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="rDZ-Mp-oc5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="fTk-p3-Zhl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izr-59-QNb">
-                                                <rect key="frame" x="198.5" y="0.0" width="76.5" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="186.66666666666666" y="0.0" width="69.999999999999972" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="ouV-6Q-rKg"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="euJ-NF-FQV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lw-g9-Edj">
-                                                <rect key="frame" x="298" y="0.0" width="76" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="279.66666666666669" y="0.0" width="70.333333333333314" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="liy-HM-1uh"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="ibx-WD-eZ9"/>
                                                 </connections>
@@ -293,38 +342,48 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Ucm-H2-xxm">
-                                        <rect key="frame" x="0.0" y="215.5" width="374" height="85"/>
+                                        <rect key="frame" x="0.0" y="198" width="350" height="75"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPE-g0-dax">
-                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="75"/>
+                                                <color key="backgroundColor" red="0.20222294330596924" green="0.17410802841186523" blue="0.048871412873268127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="tlU-W6-cJp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWw-0g-BZ5">
-                                                <rect key="frame" x="99.5" y="0.0" width="76" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="93.333333333333343" y="0.0" width="70.333333333333343" height="75"/>
+                                                <color key="backgroundColor" red="0.20222294330596924" green="0.17410802841186523" blue="0.048871412873268127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="jMF-7J-Dqr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVJ-93-8o9">
-                                                <rect key="frame" x="198.5" y="0.0" width="76.5" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleShadowColor" systemColor="linkColor"/>
+                                                <rect key="frame" x="186.66666666666666" y="0.0" width="69.999999999999972" height="75"/>
+                                                <color key="backgroundColor" red="0.2008507251739502" green="0.17386570572853088" blue="0.048949055373668671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="Eap-G1-qOP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPM-un-F7D">
-                                                <rect key="frame" x="298" y="0.0" width="76" height="85"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="279.66666666666669" y="0.0" width="70.333333333333314" height="75"/>
+                                                <color key="backgroundColor" red="0.2008507251739502" green="0.17386570572853088" blue="0.048949055373668671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="c7F-Kt-ihf"/>
                                                 </connections>
@@ -332,36 +391,48 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="WJd-QK-gyn">
-                                        <rect key="frame" x="0.0" y="323.5" width="374" height="84.5"/>
+                                        <rect key="frame" x="0.0" y="297" width="350" height="75"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxv-Yg-mm3">
-                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="OV4-Et-bU8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xe0-pg-pHe">
-                                                <rect key="frame" x="99.5" y="0.0" width="76" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="93.333333333333343" y="0.0" width="70.333333333333343" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="3fG-HX-8FX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAt-Ld-ga7">
-                                                <rect key="frame" x="198.5" y="0.0" width="76.5" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="186.66666666666666" y="0.0" width="69.999999999999972" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="qkQ-Rr-EM8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBP-E2-KnO">
-                                                <rect key="frame" x="298" y="0.0" width="76" height="84.5"/>
-                                                <color key="backgroundColor" red="0.61540808609999997" green="0.76536519179999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="279.66666666666669" y="0.0" width="70.333333333333314" height="75"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.17254901960784313" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="opaqueSeparatorColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="onChoseNumber:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="iVy-v6-9ki"/>
                                                 </connections>
@@ -370,17 +441,31 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qek-xI-pNl">
+                                <rect key="frame" x="160" y="632" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="iLW-9z-bii"/>
+                                    <constraint firstAttribute="width" constant="70" id="rAm-0s-IdE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" backgroundImage="Icon-App-20x20"/>
+                                <connections>
+                                    <action selector="restartGame:" destination="OKJ-vs-LEI" eventType="touchUpInside" id="v15-by-j9S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bub-83-cp6"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="qek-xI-pNl" firstAttribute="centerX" secondItem="bub-83-cp6" secondAttribute="centerX" id="2vd-1R-mbT"/>
                             <constraint firstItem="0hC-Im-acI" firstAttribute="centerX" secondItem="bub-83-cp6" secondAttribute="centerX" id="4b0-Ev-GDl"/>
                             <constraint firstItem="bub-83-cp6" firstAttribute="trailing" secondItem="Mup-lP-euQ" secondAttribute="trailing" constant="20" id="A7s-bN-Whv"/>
+                            <constraint firstItem="bub-83-cp6" firstAttribute="bottom" secondItem="qek-xI-pNl" secondAttribute="bottom" constant="70" id="CdK-tw-gWC"/>
                             <constraint firstItem="Mup-lP-euQ" firstAttribute="leading" secondItem="bub-83-cp6" secondAttribute="leading" constant="20" id="GXf-xc-3S7"/>
                             <constraint firstItem="Mup-lP-euQ" firstAttribute="centerY" secondItem="bub-83-cp6" secondAttribute="centerY" id="PBj-i6-pRY"/>
                             <constraint firstItem="Mup-lP-euQ" firstAttribute="top" secondItem="bub-83-cp6" secondAttribute="top" constant="200" id="ZEe-IM-DhG"/>
                             <constraint firstItem="0hC-Im-acI" firstAttribute="top" secondItem="bub-83-cp6" secondAttribute="top" constant="40" id="ZfO-K5-KUh"/>
-                            <constraint firstItem="Mup-lP-euQ" firstAttribute="centerX" secondItem="bub-83-cp6" secondAttribute="centerX" id="bk3-mR-hQ0"/>
+                            <constraint firstItem="qek-xI-pNl" firstAttribute="top" secondItem="Mup-lP-euQ" secondAttribute="bottom" constant="60" id="peu-Uy-VH3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aO3-sg-y0d"/>
@@ -430,11 +515,10 @@
         <!--Navigation Controller-->
         <scene sceneID="u84-x5-uOr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F5I-sR-yyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bcf-dc-mOB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oty-kb-5wf">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -443,6 +527,7 @@
                         <segue destination="KKz-6Z-wSf" kind="relationship" relationship="rootViewController" id="2PJ-IF-BY9"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F5I-sR-yyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="68.691588785046719" y="47.300215982721383"/>
         </scene>
@@ -452,8 +537,12 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Header1" width="452" height="146"/>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="Icon-App-20x20" width="20" height="20"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
