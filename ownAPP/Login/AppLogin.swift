@@ -13,7 +13,7 @@ class CurentUser{
     
     var userName:String = "user"
     var password:String = "user"
-    var timeFoPlay:Float = 50
+    var timeForPlay:Float = 50
     
     
     
@@ -24,6 +24,6 @@ class CurentUser{
     }
     
     func setTimeForPlay(timeForPlay:Float){
-        self.timeFoPlay = timeForPlay
+        self.timeForPlay = timeForPlay
     }
 }
