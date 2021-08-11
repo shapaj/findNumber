@@ -17,20 +17,21 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        timeSlider.value = player.timeForPlay
         
         
         
     }
     
     @IBAction func ChangeLogin(_ sender: UITextField) {
-        player.userName = sender.text ?? ""
+        
     }
     @IBAction func changeTime(_ sender: UISlider) {
-        player.timeFoPlay = sender.value
-    }
-    @IBAction func startWiteGame(_ sender: UIButton) {
         
+    }
+    @IBAction func startWhiteGame(_ sender: UIButton) {
+        player.setUserName(userName: loginTextFild.text ?? "")
+        player.setTimeForPlay(timeForPlay: timeSlider.value)
     }
     
 }

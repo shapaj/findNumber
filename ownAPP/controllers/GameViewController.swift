@@ -12,13 +12,15 @@ class GameViewController: UIViewController {
     @IBOutlet var gameButtons: [UIButton]!
     
     let player = CurentUser.shared
+    var newGame = GameModelIncease()
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        
         labelUser.text = player.userName
-        timer.text = "\(player.timeFoPlay)"
-        labelCurentValue.text = ""
+        timer.text = "\(newGame.timeForPlay)"
+        labelCurentValue.text = "CurentValue"
         
         startGame()
     }
@@ -30,16 +32,16 @@ class GameViewController: UIViewController {
     }
     
     func startGame(){
-        let newGame = GameModelIncease()
-        newGame.restartGame(count: 16)
+        newGame = GameModelIncease()
+        newGame.restartGame(count: gameButtons.count)
         
-//        var index = 0
-//        for button in newGame.playButtons {
-//            gameButtons[index].isHidden = !button.visible
-//            gameButtons[index].setTitle(button.text
-//                                        , for: .normal)
-//            index += 1
-//        }
+        
+        var index = 0
+        for button in newGame.playButtons {
+            gameButtons[index].isHidden = !button.visible
+            gameButtons[index].setTitle(button.text, for: .normal)
+            index += 1
+        }
         
     }
 }

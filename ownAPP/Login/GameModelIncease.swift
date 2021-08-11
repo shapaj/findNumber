@@ -30,7 +30,7 @@ struct PlayButton {
 }
 class GameModelIncease {
    
-    var timeForPlay:Int = Int(CurentUser.shared.timeFoPlay)
+    var timeForPlay:Int = Int(CurentUser.shared.timeForPlay)
     
     let numbers = Array(0...100)
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KKz-6Z-wSf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bcf-dc-mOB">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -82,8 +82,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="10" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xkC-dy-uqo">
-                                <rect key="frame" x="18" y="748" width="456" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="10" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xkC-dy-uqo">
+                                <rect key="frame" x="18" y="748" width="392" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="388" id="F2Q-eR-tnn"/>
                                 </constraints>
@@ -92,7 +92,7 @@
                                 </connections>
                             </slider>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="jZ7-t0-k48">
-                                <rect key="frame" x="210" y="307" width="72" height="194"/>
+                                <rect key="frame" x="171" y="307" width="72" height="194"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xg1-dC-WJu">
                                         <rect key="frame" x="0.0" y="0.0" width="72" height="44"/>
@@ -120,30 +120,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="White"/>
                                         <connections>
-                                            <action selector="startWiteGame:" destination="KKz-6Z-wSf" eventType="touchUpInside" id="IHI-2a-vVb"/>
+                                            <action selector="startWhiteGame:" destination="KKz-6Z-wSf" eventType="touchUpInside" id="Msi-r3-6ky"/>
                                             <segue destination="OKJ-vs-LEI" kind="show" id="2ba-Ft-UWc"/>
                                         </connections>
                                     </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="108" translatesAutoresizingMaskIntoConstraints="NO" id="MLS-JE-Z9I">
-                                <rect key="frame" x="20" y="244" width="452" height="37"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gng-9P-PwS">
-                                        <rect key="frame" x="0.0" y="0.0" width="104" height="37"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="old-yu-WV1">
-                                        <rect key="frame" x="212" y="0.0" width="240" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="5IB-9U-q5T"/>
-                                            <constraint firstAttribute="width" constant="240" id="Xj6-vw-Csz"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                    </textField>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCT-P0-YaG">
@@ -156,13 +136,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header1" translatesAutoresizingMaskIntoConstraints="NO" id="l1L-cn-Hza">
-                                <rect key="frame" x="20" y="0.0" width="452" height="124"/>
+                                <rect key="frame" x="20" y="0.0" width="374" height="124"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="124" id="Wiz-Ob-Zjh"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yxl-T5-zMr">
-                                <rect key="frame" x="232" y="164" width="240" height="38.5"/>
+                                <rect key="frame" x="154" y="164" width="240" height="38.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="6nh-Oq-KSV"/>
                                 </constraints>
@@ -178,7 +158,6 @@
                         <constraints>
                             <constraint firstItem="l1L-cn-Hza" firstAttribute="centerX" secondItem="jZ7-t0-k48" secondAttribute="centerX" id="Dp9-Op-nOZ"/>
                             <constraint firstItem="l1L-cn-Hza" firstAttribute="leading" secondItem="uCT-P0-YaG" secondAttribute="leading" id="FWY-TZ-Wgn"/>
-                            <constraint firstItem="Ax8-Ur-LNG" firstAttribute="trailing" secondItem="xkC-dy-uqo" secondAttribute="trailing" constant="20" id="FjA-C5-Fgv"/>
                             <constraint firstItem="l1L-cn-Hza" firstAttribute="trailing" secondItem="Yxl-T5-zMr" secondAttribute="trailing" id="H6L-1r-DY7"/>
                             <constraint firstItem="uCT-P0-YaG" firstAttribute="top" secondItem="l1L-cn-Hza" secondAttribute="bottom" constant="40" id="YYQ-vX-Sd5"/>
                             <constraint firstItem="Yxl-T5-zMr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uCT-P0-YaG" secondAttribute="trailing" constant="8" symbolic="YES" id="bMV-qY-Adc"/>
@@ -427,6 +406,21 @@
                         <outletCollection property="GameButtons" destination="wAt-Ld-ga7" collectionClass="NSMutableArray" id="tl2-o6-ASb"/>
                         <outletCollection property="GameButtons" destination="ZBP-E2-KnO" collectionClass="NSMutableArray" id="e0T-0X-bfg"/>
                         <outletCollection property="gameButtons" destination="UeU-gz-cZT" collectionClass="NSMutableArray" id="dEI-Oz-trp"/>
+                        <outletCollection property="gameButtons" destination="4Xo-Il-Vdc" collectionClass="NSMutableArray" id="zN0-IR-kcf"/>
+                        <outletCollection property="gameButtons" destination="IeR-K4-yOX" collectionClass="NSMutableArray" id="xdV-vn-f2B"/>
+                        <outletCollection property="gameButtons" destination="33z-94-Tni" collectionClass="NSMutableArray" id="A5g-4I-KtE"/>
+                        <outletCollection property="gameButtons" destination="F2M-9d-6aR" collectionClass="NSMutableArray" id="KMn-QE-0JP"/>
+                        <outletCollection property="gameButtons" destination="QzV-lk-OdX" collectionClass="NSMutableArray" id="44K-pR-qTK"/>
+                        <outletCollection property="gameButtons" destination="5lw-g9-Edj" collectionClass="NSMutableArray" id="pJs-3g-hjO"/>
+                        <outletCollection property="gameButtons" destination="izr-59-QNb" collectionClass="NSMutableArray" id="J8W-i2-fGe"/>
+                        <outletCollection property="gameButtons" destination="BPE-g0-dax" collectionClass="NSMutableArray" id="yRV-MX-U77"/>
+                        <outletCollection property="gameButtons" destination="vWw-0g-BZ5" collectionClass="NSMutableArray" id="P7p-EW-bgH"/>
+                        <outletCollection property="gameButtons" destination="rxv-Yg-mm3" collectionClass="NSMutableArray" id="RDH-jK-59j"/>
+                        <outletCollection property="gameButtons" destination="Xe0-pg-pHe" collectionClass="NSMutableArray" id="5d6-GB-buT"/>
+                        <outletCollection property="gameButtons" destination="UVJ-93-8o9" collectionClass="NSMutableArray" id="vWn-fk-VHe"/>
+                        <outletCollection property="gameButtons" destination="MPM-un-F7D" collectionClass="NSMutableArray" id="dYI-Ov-6BK"/>
+                        <outletCollection property="gameButtons" destination="wAt-Ld-ga7" collectionClass="NSMutableArray" id="hue-Wc-aTr"/>
+                        <outletCollection property="gameButtons" destination="ZBP-E2-KnO" collectionClass="NSMutableArray" id="2o4-RA-4Ri"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lf-r7-tlI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -436,6 +430,7 @@
         <!--Navigation Controller-->
         <scene sceneID="u84-x5-uOr">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F5I-sR-yyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bcf-dc-mOB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oty-kb-5wf">
@@ -445,13 +440,16 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="KKz-6Z-wSf" kind="show" id="h7V-XN-Te5"/>
+                        <segue destination="KKz-6Z-wSf" kind="relationship" relationship="rootViewController" id="2PJ-IF-BY9"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F5I-sR-yyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="68.691588785046719" y="47.300215982721383"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="h7V-XN-Te5"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Header1" width="452" height="146"/>
         <systemColor name="linkColor">
